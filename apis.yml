@@ -1,8 +1,27 @@
 aid: daoex
 name: DAOex
-description: 'DAOex is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'DAOex (DAO Exchange, product-branded "Commune") was a web3 community relationship management
+  platform positioned as an all-in-one tool for understanding, engaging, and growing DAO and NFT communities.
+  Its advertised surface covered member directories bridging on-chain and off-chain data, referral programs
+  with unique member/affiliate links, quests, contests and bounties as rewards infrastructure, Discord-native
+  engagement and role assignment, and payouts of tokens, NFTs or Discord roles on Ethereum mainnet and
+  Polygon via an automatically provisioned Gnosis Safe, with a points-and-CSV fallback for pre-token
+  communities. Surfaced as a portfolio company of multicoin-capital. As of the 2026-07-20 enrichment pass
+  the company appears DEFUNCT: daoex.app no longer resolves in DNS (NXDOMAIN, no SOA), the site was a
+  single-page Webflow marketing site last published 2022-09-22 and last archived 2023-03-21, and no API,
+  developer portal, documentation, SDK, package or GitHub organization was ever published.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://uploads-ssl.webflow.com/62d0a08fa9287e1c2f1fa058/62e1ce30b3c7986419842ddf_DAO%20Exchange%20small.png
 url: https://raw.githubusercontent.com/api-evangelist/daoex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,31 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence:
+  domain: daoex.app
+  dns: NXDOMAIN (no A record, no SOA) as probed 2026-07-20
+  http: connection failed - could not resolve host
+  last_published: '2022-09-22'
+  last_archived: '2023-03-21'
+  archive_footprint: 4 URLs total on www.daoex.app (/, favicon.ico 404, robots.txt 404, sitemap.xml);
+    no app/api/docs subdomain ever archived
+  api_surface: none found
+  packages: npm 0 results, PyPI 404, no GitHub organization
+  security_probe: probe-domain-security.py = unreachable; probe-security-programs.py = vdp none, trust none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto Web3
+- DAO
+- Community Management
+- Web3
+- Discord
+- NFT
+- Rewards
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +63,14 @@ maintainers:
 common:
 - type: Website
   url: https://daoex.app
+- type: Twitter
+  url: https://twitter.com/daoex_app
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dao-exchange/
+- type: Archive
+  url: http://web.archive.org/web/20230321234126/https://www.daoex.app/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
