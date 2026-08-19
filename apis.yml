@@ -41,7 +41,7 @@ x-status-evidence:
   api_surface: none found
   packages: npm 0 results, PyPI 404, no GitHub organization
   security_probe: probe-domain-security.py = unreachable; probe-security-programs.py = vdp none, trust none
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
