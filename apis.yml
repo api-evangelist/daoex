@@ -10,6 +10,17 @@ description: 'DAOex (DAO Exchange, product-branded "Commune") was a web3 communi
   the company appears DEFUNCT: daoex.app no longer resolves in DNS (NXDOMAIN, no SOA), the site was a
   single-page Webflow marketing site last published 2022-09-22 and last archived 2023-03-21, and no API,
   developer portal, documentation, SDK, package or GitHub organization was ever published.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
